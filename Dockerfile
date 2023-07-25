@@ -6,5 +6,5 @@ RUN npm config set registry "https://registry.npm.taobao.org/" \
 RUN npm install pm2 -g
 
 EXPOSE 3001
-CMD ["pm2-runtime", "start", "index.js, "-n", "uni-docker" ]
+CMD ["pm2-runtime", "start", "index.js", "-n", "uni-docker" ]
 
