@@ -6,5 +6,5 @@ RUN npm config set registry "https://registry.npm.taobao.org/"
 RUN npm install
 
 EXPOSE 3001
-CMD ["node", "index.js" ]
+CMD ["node", "index.js"]
 
