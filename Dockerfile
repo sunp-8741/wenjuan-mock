@@ -1,6 +1,7 @@
 FROM node:lts-alpine as build-stage
 
 WORKDIR /app
+COPY . /app
 RUN npm config set registry "https://registry.npm.taobao.org/"
 RUN npm install
 RUN npm install pm2 -g
